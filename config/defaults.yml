@@ -1,0 +1,135 @@
+branding:
+  name: "CS Studios Bot"
+  color: "#8B5CF6"
+  footer: "Bot desarrollado por CS Studios"
+  thumbnail: ""
+
+welcome:
+  enabled: false
+  channelId: ""
+  image: ""
+  thumbnail: ""
+  message: "👋 ¡Bienvenido {user} a **{server}**! Ahora somos **{membercount}** miembros."
+
+goodbye:
+  enabled: false
+  channelId: ""
+  image: ""
+  thumbnail: ""
+  message: "😢 **{username}** ha salido de **{server}**. Ahora somos **{membercount}** miembros."
+
+ticket:
+  enabled: true
+  categoryId: ""
+  supportRoleId: ""
+  image: ""
+  thumbnail: ""
+  panelTitle: "🎫 Centro de Soporte"
+  panelDescription: "Necesitas ayuda? Selecciona una categoría para abrir tu ticket. Nuestro equipo te atenderá lo antes posible."
+  categories:
+    support: "🛠️ Soporte"
+    purchases: "💰 Compras"
+    reports: "🚨 Reportes"
+    partnership: "🤝 Partnership"
+
+logs:
+  enabled: false
+  channelId: ""
+  messageDelete: true
+  messageEdit: true
+  memberJoin: true
+  memberLeave: true
+  moderation: true
+  tickets: true
+  channels: true
+  roles: true
+  voice: false
+  messages: true
+  members: true
+
+moderation:
+  enabled: true
+  dmUser: true
+  logActions: true
+  staffRoleIds: []
+
+automod:
+  enabled: false
+  antiSpam: true
+  antiInvite: true
+  antiLink: false
+  capsPercent: 80
+  maxMentions: 5
+  spamWindowMs: 5000
+  spamMaxMessages: 6
+  badWords: []
+  ignoredChannelIds: []
+  ignoredRoleIds: []
+  timeoutSeconds: 60
+  deleteWarningSeconds: 7
+
+suggestions:
+  enabled: true
+  channelId: ""
+  allowAnonymous: false
+
+giveaways:
+  enabled: true
+  defaultWinners: 1
+
+modules:
+  moderation: true
+  automod: false
+  tickets: true
+  ratings: true
+  suggestions: true
+  giveaways: true
+  levels: true
+  economy: true
+  minigames: true
+  autoroles: true
+  polls: true
+  reminders: true
+  afk: true
+
+
+levels:
+  enabled: false
+  xpPerMessageMin: 8
+  xpPerMessageMax: 15
+  cooldownSeconds: 45
+  levelMultiplier: 1.0
+  ignoredChannelIds: []
+  rewards: {}
+
+economy:
+  enabled: false
+  currencyName: "Coins"
+  currencyEmoji: "🪙"
+  dailyMin: 100
+  dailyMax: 250
+  workMin: 50
+  workMax: 150
+  cooldownMinutes: 60
+
+autoroles:
+  enabled: false
+  roleIds: []
+
+polls:
+  enabled: true
+  channelId: ""
+
+reminders:
+  enabled: true
+
+afk:
+  enabled: true
+
+raidProtection:
+  enabled: false
+  windowSeconds: 15
+  maxJoins: 6
+  timeoutSeconds: 600
+  action: "timeout"
+  logChannelId: ""
